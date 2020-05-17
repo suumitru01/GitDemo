@@ -9,5 +9,9 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src/test/java/features",plugin="json:target/jsonReports/cucmber-reports.json",glue= {"stepDefinations"}
 /*,tags= {"@DeletePlace"}*/)
 public class TestRunner {
+	private void syso() {
+		// TODO Auto-generated method stub
+
+	}
 
 }
